@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="edb08c3e-64db-4feb-9f16-d8768855ac76" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-library/src/main/java/com/luv2code/springbootlibrary/config/MyDataRestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-library/src/main/java/com/luv2code/springbootlibrary/config/MyDataRestConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-library/src/main/java/com/luv2code/springbootlibrary/dao/MessageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-library/src/main/java/com/luv2code/springbootlibrary/dao/MessageRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
