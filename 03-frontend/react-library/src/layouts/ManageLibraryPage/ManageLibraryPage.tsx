@@ -1,6 +1,7 @@
 import { useOktaAuth } from "@okta/okta-react"
 import { useState } from "react";
 import { Redirect } from "react-router-dom";
+import { AdminMessages } from "./components/AdminMessages";
 
 export const ManageLibraryPage = () => {
 
@@ -24,9 +25,9 @@ export const ManageLibraryPage = () => {
         setMessagesClick(true);
     }
 
-    if (authState?.accessToken?.claims.userType === undefined) {
-        return <Redirect to='/home'/>
-    }
+    // if (authState?.accessToken?.claims.userType === undefined) {
+    //     return <Redirect to='/home'/>
+    // }
 
     return (
         <div className="container">
@@ -60,7 +61,7 @@ export const ManageLibraryPage = () => {
                         {changeQuantityOfBooksClick ? <>Change Quantity</> : <></>}
                     </div>
                     <div className="tab-pane fade" id="nav-messages" role="tabpanel" aria-labelledby="nav-messages-tab">
-                        {messagesClick ? <>Admin Messages</> : <></>}
+                        {messagesClick ? <AdminMessages/> : <></>}
                     </div>
                 </div>
             </div>
