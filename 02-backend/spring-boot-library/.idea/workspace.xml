@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edb08c3e-64db-4feb-9f16-d8768855ac76" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-library/src/main/java/com/luv2code/springbootlibrary/requestmodels/AdminQuestionRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-library/src/main/java/com/luv2code/springbootlibrary/service/MessagesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-library/src/main/java/com/luv2code/springbootlibrary/service/MessagesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-library/src/main/java/com/luv2code/springbootlibrary/controller/MessagesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-library/src/main/java/com/luv2code/springbootlibrary/controller/MessagesController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
